@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /offline.html
 
-Sitemap: https://gnathussinbder-star.github.io/HB10/sitemap.xml
+Sitemap: https://gnathussinbder-star.github.io/HH/sitemap.xml

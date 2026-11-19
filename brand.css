@@ -1,10 +1,10 @@
 /* HB English — brand layer (v7) */
-:root{--hb-navy:#102B4C;--hb-blue:#1B4F8F;--hb-gold:#FFD447;--hb-amber:#F5A800}
+:root{--hb-navy:#102B4C;--hb-blue:#102B4C;--hb-gold:#FFD447;--hb-support:#7598BD}
 .brand-mark{background:#fff!important;border:1px solid var(--line);box-shadow:0 6px 18px #102B4C1f!important;overflow:hidden}
 .brand-mark img{width:36px!important;height:36px!important;object-fit:contain}
 body.dark .brand-mark{background:#fff!important}
-.hero-brand{background:linear-gradient(135deg,#0c2142 0%,#102B4C 55%,#1B4F8F 130%)!important;position:relative;overflow:hidden}
-.hero-brand:before{content:"";position:absolute;inset:auto auto -140px -100px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,#FFD44726,transparent 70%)}
+.hero-brand{background:linear-gradient(135deg,#102B4C 0%,#102B4C 72%,#7598BD 160%)!important;position:relative;overflow:hidden}
+.hero-brand:before{content:"";position:absolute;inset:auto auto -140px -100px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,#7598BD55,transparent 70%)}
 .hero-brand>img{background:#fff;padding:26px;border-radius:32px!important;max-width:280px!important;box-shadow:0 24px 60px #0007!important;position:relative}
 .trust{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .trust span{font-size:12px;padding:6px 12px;border-radius:99px;background:#ffffff14;border:1px solid #ffffff2e;color:#e8eff8}

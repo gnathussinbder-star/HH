@@ -1,11 +1,11 @@
 /* Service worker — Hussein Badr English
    Strategy: pages = network-first with cache + offline fallback; static assets = stale-while-revalidate. */
-const VERSION = 'hbe-v7';
+const VERSION = 'hbe-v9';
 const PRECACHE = [
  "./",
  "about.html",
  "brand.html",
- "assets/css/brand.css?v=7",
+ "assets/css/brand.css?v=9",
  "accessibility.html",
  "certificate.html",
  "contact.html",
@@ -76,8 +76,8 @@ const PRECACHE = [
  "vocabulary/technology.html",
  "vocabulary/travel.html",
  "vocabulary/work-jobs.html",
- "assets/css/placement-assessment.css",
- "assets/css/style.css",
+ "assets/css/placement-assessment.css?v=3",
+ "assets/css/style.css?v=9",
  "assets/img/apple-touch-icon.png",
  "assets/img/favicon-32.png",
  "assets/img/favicon.png",
@@ -88,10 +88,10 @@ const PRECACHE = [
  "assets/img/hbe-logo.png",
  "assets/img/hbe-portrait.jpg",
  "assets/img/og-image.jpg",
- "assets/js/app.js",
- "assets/js/data.js",
- "assets/js/exercises.js",
- "assets/js/placement-assessment.js",
+ "assets/js/app.js?v=9",
+ "assets/js/data.js?v=9",
+ "assets/js/exercises.js?v=9",
+ "assets/js/placement-assessment.js?v=3",
  "manifest.webmanifest"
 ];
 
